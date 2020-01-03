@@ -1,0 +1,21 @@
+{
+  "name": "ping-pong-run-reload",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Leon Kim",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "bin": {
+    "ping-pong-run-reload": "./bin/ping-pong-run-reload"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "ws": "^7.2.1"
+  }
+}
